@@ -34,7 +34,7 @@ public class Member{
 	@Id 
 	@GeneratedValue(generator = "uuid2")
 	@GenericGenerator(name = "uuid2", strategy = "uuid2")
-	//@Column(columnDefinition = "BINARY(16)", updatable = false, nullable = false) //only for dev -> @Type must be deactivated
+	//@Column(columnDefinition = "BINARY(16)", updatable = false, nullable = false) //only for dev (with MySQL)-> @Type must be deactivated
 	@Column(updatable = false, nullable = false)
 	@Type(type = "uuid-binary")
     private UUID id;

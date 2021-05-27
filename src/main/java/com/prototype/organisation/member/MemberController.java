@@ -60,7 +60,6 @@ public class MemberController {
 			
 			return member;
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			return null;
 		}

@@ -31,7 +31,6 @@ public class CorsConfig {
 		DefaultCookieSerializer serializer = new DefaultCookieSerializer();
 		serializer.setCookieName("SESSION"); 
 		serializer.setCookiePath("/"); 
-		//serializer.setDomainNamePattern("^.+?\\.(\\w+\\.[a-z]+)$"); 
 		serializer.setSameSite("none");
 		serializer.setUseSecureCookie(true);
 		return serializer;

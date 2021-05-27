@@ -67,6 +67,18 @@
 		    <groupId>org.springframework.session</groupId>
 		    <artifactId>spring-session-jdbc</artifactId>
 	  	</dependency>
+	  	
+	  	<!-- for send email -->
+	  	<dependency>
+		    <groupId>javax.mail</groupId>
+		    <artifactId>javax.mail-api</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.sun.mail</groupId>
+		    <artifactId>javax.mail</artifactId>
+		    <version>1.6.2</version>
+		</dependency>
 		
 	</dependencies>
 
