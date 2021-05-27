@@ -50,7 +50,7 @@ public class ContactUsController {
 		try {
 			Message msg = new MimeMessage(session);
 			msg.setFrom(new InternetAddress(myAccountEmail, form.getName() + "(" + form.getEmail() + ")"));
-			msg.setRecipient(Message.RecipientType.TO, new InternetAddress(myAccountEmail));
+			msg.setRecipient(Message.RecipientType.TO, new InternetAddress("ekalayade@gmail.com"));
 			msg.setSubject(form.getSubject());
 			msg.setText(form.getMessage());
 			return msg;
